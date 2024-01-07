@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 .heading{
     background-color: rgb(34, 34, 34);
@@ -24,17 +25,68 @@ ul{
     padding: 12px;
     
 }
+table{
+    border-color: white;
+}
+th, td{
+    padding: 10px;
+}
 
 ul li{
     list-style: none;
     font-size: 20px;
     color: white;
+    cursor: pointer;
     
 }
+
 .table-form{
-    margin:15px;
+    margin-top: 15px;
+    background-color: white;
+    padding: 15px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
 }
 
+
 .table h2{
+    padding-top: 18px;
     padding-bottom: 10px;
+}
+
+body{
+    background-color: rgb(243, 242, 242);
+}
+
+label{
+    width: 100%;
+}
+
+input{
+    width: 98%;
+    margin: 10px auto;
+    padding: 5px;
+}
+textarea{
+    width: 98%;
+    margin: 10px auto;
+    padding: 5px;
+}
+select{
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+button{
+    width: 100%;
+    border: 0;
+    margin: 10px auto;
+    padding: 10px ;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    cursor: pointer;
 }

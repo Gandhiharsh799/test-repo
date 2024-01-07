@@ -1,73 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form task</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="heading">
-        <h1>
-            Practice
-        </h1>
+      <h1>Practice</h1>
     </div>
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
     </nav>
 
     <div class="table-form">
-        <div class="table">
-            <h2>Table Example</h2>
-            <table align=center border=1 cellspacing ="0" width="60%" height="50%" cellpadding="2"> 
-                <tr>
-                    <th colspan=2 align=left>Employee Information</th>
-                </tr>
-                
-                <tr>
-                    <th align="left">Name</th>
-                    <th align="left">Position</th>
-                </tr>
-                <tr>
-                    <td>John Doe</td>
-                    <td>Web Developer</td>
-                </tr>
-                <tr>
-                    <td>Jane Smith</td>
-                    <td>Graphic Designer</td>
-                </tr>
-            </table>
+      <div class="table">
+        <h2>Table Example</h2>
+        <table
+          align="center"
+          border="1"
+          cellspacing="0"
+          width="100%"
+          cellpadding="2"
+        >
+          <tr>
+            <th colspan="2" align="left">Employee Information</th>
+          </tr>
 
-            <h2>Contact Us</h2>
+          <tr>
+            <th align="left">Name</th>
+            <th align="left">Position</th>
+          </tr>
+          <tr>
+            <td>John Doe</td>
+            <td>Web Developer</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>Graphic Designer</td>
+          </tr>
+        </table>
 
-            <form action="submit">
+        <h2>Contact Us</h2>
 
-            <label for="name">Name:</label>
-            <input type="text" required>
-            <label for="email">Email:</label>
-            <input type="email" required>
-            <label for="password">Password:</label>
-            <input type="password" required>
-            <label for="comments">Comments:</label>
-            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-            <label for="country">Country</label>
-            <select name="country" id="country">
-                <option value="United States">United States</option>
-                <option value="India">India</option>
-                <option value="Canada">Canada</option>
-                <option value="Italy">Italy</option>
-                <option value="Brazil">Brazil</option>
-            </select>
+        <form action="submit">
+          <label for="name">Name:</label>
+          <input type="text" required />
+          <label for="email">Email:</label>
+          <input type="email" required />
+          <label for="password">Password:</label>
+          <input type="password" required />
+          <label for="comments">Comments:</label>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="28"
+            rows="5"
+          ></textarea>
+          <label for="country">Country</label>
+          <select name="country" id="country">
+            <option value="United States">United States</option>
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="Italy">Italy</option>
+            <option value="Brazil">Brazil</option>
+          </select>
 
-            </form>
-
-        </div>
-        
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>
